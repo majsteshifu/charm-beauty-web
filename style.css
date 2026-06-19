@@ -427,14 +427,15 @@ header.scrolled .nav-container {
 }
 
 .hero-logo-img {
-  width: 120px;
-  height: 120px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.85);
   margin-bottom: 24px;
-  filter: brightness(0) invert(1); /* make it white overlay */
-  background: rgba(255, 255, 255, 0.1);
-  padding: 10px;
+  background: #ffffff;
+  object-fit: contain;
+  padding: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
 }
 
 .hero-title {
